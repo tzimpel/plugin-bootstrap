@@ -1,0 +1,30 @@
+{
+    "name": "tzimpel/plugin-bootstrap",
+    "type": "library",
+    "description": "TODO: Describe what this package is all about",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Tobias Zimpel",
+            "email": "tobiaszimpel@me.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "inpsyde/php-coding-standards": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "TZimpel\\PluginBootstrap\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "ci": [
+            "vendor/bin/phpcs"
+        ]
+    }
+}
